@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia,
+    serif;
+  font-weight: bold;
+}
+.topContainer {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+  /* height: 600px; */
+}
+
+h1 {
+  margin: 20px auto 0px auto;
+  font-family: "Rochester", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  /* 16px = 100% = 1rem */
+}
+
+.pro {
+  font-family: "Overpass", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  text-decoration: underline;
+}
+h2 {
+  font-family: "Overpass", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h3 {
+  font-family: "Overpass", sans-serif;
+  color: #3fc1c9;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  width: 3%;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 350px;
+}
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.charlie {
+  width: 120px;
+  height: 120px;
+}
+.charlie-desc {
+  width: 55%;
+  margin: auto;
+}
+.footer-link {
+  color: #3fc1c9;
+  font-size: 25px;
+  margin: 10px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skill-desc {
+  line-height: 2;
+}
+.java-img {
+  float: left;
+  margin-right: 30px;
+}
+.web-img {
+  float: right;
+  margin-left: 30px;
+}
+.sql-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  padding-top: 50px;
+  background-color: #99d8d0;
+  height: 100px;
+}
+.credit {
+  color: white;
+}
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+.skills {
+  margin: 100px auto 50px auto;
+}
+.contact-me {
+  width: 35%;
+  margin: 50px auto 50px auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.btn {
+  background-color: #66bfbf;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto 20px auto;
+}
+
+.btn:hover {
+  background-color: aqua;
+  color: black;
+}
